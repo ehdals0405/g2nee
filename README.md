@@ -2,6 +2,7 @@
 - G2nee Book Shop은 사용자가 책을 조회하고 주문할 수 있는 사이트입니다.
 - 스프링 기술과 데이터베이스, 클라우드 서비스를 활용한 인터넷 도서 쇼핑몰 프로젝트입니다.
 - URL: https://www.g2nee.shop
+- github : https://github.com/nhnacademy-be5-t2m
 
 ### 개발 기간
 - 2024-03-11 ~ 2024-05-17
@@ -146,6 +147,15 @@
 - github Kanban 활용으로 실시간 진행 상황 관리
 ![image](https://github.com/nhnacademy-be5-t2m/.github/assets/89886506/4e996182-3f85-42a2-b680-741d08a9f6b0)
 
+## 팀원 공통
+- 서버별 CI/CD 관리
+  - Jenkins : gateway 서버
+  - Github Actions :  front, shop, eureka, batch, auth 서버 관리
+- Jenkins: auth, gateway 서버 CI/CD 관리
+- 데이터베이스 설계 및 ERD Diagram 작성
+- NHN Cloud Load balance를 통해 front server 로드밸런싱
+- Eureka를 사용한 스프링 클라우드환경 구축
+
 
 # 기능 
 
@@ -167,7 +177,10 @@
 1. 관리자 페이지 저자 등록, 수정, 조회, 삭제
 2. 페이지네이션
   
-### 상품(도서)
+### 상품(도서
+![777](https://github.com/ehdals0405/g2nee/assets/129938243/a3ca35b9-6810-49db-ac36-1e9fb225f369)
+![KakaoTalk_20240524_153149094](https://github.com/ehdals0405/g2nee/assets/129938243/e32c9c62-eb49-4978-8215-45531a2fc859)
+![메인](https://github.com/ehdals0405/g2nee/assets/129938243/4877fefb-28da-4af5-a4a2-e1fc44eed77d)
 1. 관리자 페이지 도서 등록, 수정, 조회, 삭제(Soft Delete)
    - 도서 등록 시 ToastUI WYSIWYG 적용
 2. 도서 판매, 절판, 매진, 삭제 상태 구현
@@ -175,20 +188,27 @@
 4. 도서 상세 조회
 
 ### 상품좋아요
+![좋아요](https://github.com/ehdals0405/g2nee/assets/129938243/4840f2f6-f032-46af-a5a2-b20085143cb8)
+
 1. 도서 좋아요 및 취소
 2. 회원 좋아요한 도서 목록 조회
   
 ### 검색
-1. ELK 스택 사용
+![캡처](https://github.com/ehdals0405/g2nee/assets/129938243/5c80e96d-2c28-41b4-b2c7-725aa4939fcc)
+![캡처2](https://github.com/ehdals0405/g2nee/assets/129938243/a98df965-e668-4bb4-aaa5-3d38f54c5607)
+![123](https://github.com/ehdals0405/g2nee/assets/129938243/6b454b57-0df7-4cc9-9da4-f4e52a854a70)
+1. 카테고리 별 검색
+2. Elasticsearch
   - Elasticsearch 인덱스 생성, 매핑
     - Ngram, Nori 플러그인을 사용하여 분석기 설정
     - Logstash를 이용 데이터 생성
     - Kibana를 이용한 데이터 탐색
     - 통합검색, 출판사, 참여자, 태그 별 검색
     - 초성, 영문 오타 교정 검색
-2. 인기도순(조회수), 신상품순(출시일), 가격순, 평점순, 리뷰순으로 정렬 
+3. 인기도순(조회수), 신상품순(출시일), 가격순, 평점순, 리뷰순으로 정렬 
   
 ### 장바구니 
+![장바구니](https://github.com/ehdals0405/g2nee/assets/129938243/50eaeb77-1dd3-44cf-a214-575589376e34)
   1. 빈번한 내용 변경이 이루어지는 장바구니에 Redis를 적용하여 캐싱
   2. 장바구니 담기, 조회
   3. 장바구니 페이지 내에서 수량 조절 및 삭제
@@ -197,6 +217,7 @@
   6. 회원은 로그아웃 혹은 토큰이 만료되면 RDB에 Redis 정보를 복제하여 데이터 유지
  
 ### 리뷰(상품평)
+![녹화_2024_05_24_15_54_03_368-min](https://github.com/ehdals0405/g2nee/assets/129938243/2fde67d5-90a2-4792-9be0-332902a8f391)
   1. 리뷰 등록, 수정, 조회
       - 회원만 등록 가능
       - 별점 부여 (1 ~ 5)
@@ -206,16 +227,6 @@
   3. 책 조회 시 평균 평점과 리뷰 개수를 함께 출력
 
 ### 포인트
+![666](https://github.com/ehdals0405/g2nee/assets/129938243/d3460255-1b8a-4a92-b243-0482178271d4)
   1. 포인트 사용이력
     - Mypage에서 포인트 적립/사용 내역을 확인
- 
-
-  
-## 팀원 공통
-- 서버별 CI/CD 관리
-  - Jenkins : gateway 서버
-  - Github Actions :  front, shop, eureka, batch, auth 서버 관리
-- Jenkins: auth, gateway 서버 CI/CD 관리
-- 데이터베이스 설계 및 ERD Diagram 작성
-- NHN Cloud Load balance를 통해 front server 로드밸런싱
-- Eureka를 사용한 스프링 클라우드환경 구축
