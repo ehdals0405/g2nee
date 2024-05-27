@@ -177,7 +177,7 @@
 1. 관리자 페이지 저자 등록, 수정, 조회, 삭제
 2. 페이지네이션
   
-### 상품(도서
+### 상품(도서)
 ![777](https://github.com/ehdals0405/g2nee/assets/129938243/a3ca35b9-6810-49db-ac36-1e9fb225f369)
 ![KakaoTalk_20240524_153149094](https://github.com/ehdals0405/g2nee/assets/129938243/e32c9c62-eb49-4978-8215-45531a2fc859)
 ![메인](https://github.com/ehdals0405/g2nee/assets/129938243/4877fefb-28da-4af5-a4a2-e1fc44eed77d)
