@@ -147,6 +147,14 @@
 - github Kanban 활용으로 실시간 진행 상황 관리
 ![image](https://github.com/nhnacademy-be5-t2m/.github/assets/89886506/4e996182-3f85-42a2-b680-741d08a9f6b0)
 
+## 프론트 뷰
+![화면 캡처 2024-06-12 132408](https://github.com/nhnacademy-be5-t2m/g2nee-shop/assets/129938243/3731fcdb-f3cf-45bb-8fc3-d3db7c742dcf)
+![화면 캡처 2024-06-12 132532](https://github.com/nhnacademy-be5-t2m/g2nee-shop/assets/129938243/67424359-4efb-4b4d-a8e9-10e78e4a86bb)
+![화면 캡처 2024-06-12 130842](https://github.com/nhnacademy-be5-t2m/g2nee-shop/assets/129938243/dee14475-45ba-4265-87b3-f0f7eb6685a6)
+![화면 캡처 2024-06-12 134913](https://github.com/nhnacademy-be5-t2m/g2nee-shop/assets/129938243/5cb83b37-b1c4-41b3-8527-0c3989b91ea2)
+![화면 캡처 2024-06-12 132444](https://github.com/nhnacademy-be5-t2m/g2nee-shop/assets/129938243/39a66b6e-c703-4a36-a2c3-c965c33d65ba)
+
+
 ## 팀원 공통
 - 서버별 CI/CD 관리
   - Jenkins : gateway 서버
