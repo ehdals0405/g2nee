@@ -1,7 +1,7 @@
 # 📖 G2nee Book Shop
 - G2nee Book Shop은 사용자가 책을 조회하고 주문할 수 있는 사이트입니다.
 - 스프링 기술과 데이터베이스, 클라우드 서비스를 활용한 인터넷 도서 쇼핑몰 프로젝트입니다.
-- URL: https://www.g2nee.shop
+- URL: https://www.g2nee.shop // 배포 중단
 - TeamRepository : https://github.com/nhnacademy-be5-t2m
 
 ### 개발 기간
